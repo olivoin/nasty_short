@@ -1,0 +1,110 @@
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .hello {
+        min-height: 550px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .hello-title {
+        margin-left: 16.66%;
+        padding-left: 26px;
+    } 
+    
+    .hello-title h1 {
+        font-size: 38px;
+    }
+    
+    .hello .button {
+        margin-left: calc(16.66% + 26px);
+    }
+    
+    .hello .wrap {
+        align-content: center;
+        padding-top: 115px;
+    }
+    
+    .clients .col-4-6 {
+        width: 84%;
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    
+    /* global */
+    
+    .wrap {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .col-1-6,
+    .col-2-6,
+    .col-3-6,
+    .col-4-6,
+    .col-5-6,
+    .col-1-8,
+    .col-2-8,
+    .col-3-8,
+    .col-4-8,
+    .col-5-8,
+    .col-6-6,
+    .col-7-6 {
+        width: 100%;
+    }
+    
+    /* header */
+    
+    #header {display: none;}
+    
+    /* front */
+    
+    .hello {
+        height: auto;
+        min-height: inherit;
+        margin: 0;
+    }
+    
+    .hello-title h1 {
+        font-size: 38px;
+    }
+    
+    .preoritets-block-image {
+        text-align: center;
+    }
+    
+    .preoritets-block {
+        margin-bottom: 52px;
+    }
+    
+    .preoritets-block-image img {
+        width: 140px;
+    }
+    
+    .detail-pres .full-height {
+        padding: 100px 20px;
+    }
+    
+    .production-desc-1:after {
+        content: none;
+        
+    }
+    
+    .production-desc .padding-r-26 {
+        padding-right: 0;
+    }
+    
+    .contacts {
+        height: auto;
+        padding: 52px 0;
+    }
+    
+    .contacts-phone {
+        font-size: 28px;
+    }
+    
+    .contacts .col-3-6:first-child {
+        margin-bottom: 52px;
+    }
+    
+}
